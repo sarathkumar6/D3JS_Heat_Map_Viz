@@ -9,7 +9,7 @@
       let data = dataset.monthlyVariance;
 
       function monthName(month){
-        var date = new Date(0);
+        let date = new Date(0);
         date.setUTCMonth(month);
         return d3.timeFormat("%B")(date);
       }
